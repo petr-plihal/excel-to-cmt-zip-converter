@@ -23,12 +23,32 @@ OUTPUT_DIR = BASE_DIR / "outputs"
 COLUMNS_TO_KEEP: Dict[str, List[str]] = {
     # Leave empty {} to include all entities with all columns
     # Or specify selectively:
+    'talxis_project': [],
+    'talxis_administrativearea': [],
+
+    'talxis_landparcel': [],
+    'talxis_landparcelowner': [],
+
+    'talxis_cadastralsurveyplan': [],
+
+    'ntg_affectedlandparcel': [],
+    'ntg_affectedlandparcelimpact': [],
+    'ntg_affectedlandparcelowner': [],
+
+    'talxis_contract': [],
+    'talxis_contractdetail': [],
+    'talxis_contractpayment': [],
+
+    'ntg_cadastralsurveyplandetail': [],
+
+
     # 'account': [],
     # 'contact': [],
+    # 'talxis_address': [],
 }
 
 # File names
-EXCEL_FILE_NAME = "inputdata.xlsx"
+EXCEL_FILE_NAME = "Queries.xlsx"
 SCHEMA_FILE_NAME = "data_schema.xml"
 DATA_OUTPUT_FILE = "data.xml"
 ZIP_OUTPUT_FILE = "data.zip"
