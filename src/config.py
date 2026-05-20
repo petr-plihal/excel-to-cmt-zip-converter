@@ -41,6 +41,9 @@ COLUMNS_TO_KEEP: Dict[str, List[str]] = {
 
     'ntg_cadastralsurveyplandetail': [],
 
+    'talxis_proceeding': [],    
+    'ntg_proceedingdetail': [],
+
 
     # 'account': [],
     # 'contact': [],
